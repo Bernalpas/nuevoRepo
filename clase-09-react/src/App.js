@@ -23,6 +23,7 @@ function App() {
       {/* configuramos las rutas */}
       <Routes>
         <Route index element={ <Home /> }></Route>
+        <Route path='/home' element={ <Home /> }></Route>
         <Route path='/principal' element={ <Principal /> }></Route>
         <Route path='/main' element={ <Main /> }></Route>
         <Route path='*' element={ <Error /> }></Route>

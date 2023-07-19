@@ -1,17 +1,18 @@
 
 
 
-const Home = () =>{
+
+const Api = () =>{
     return(
         <div className='container'>
             <div>
-            <h1>Home</h1>
+            <h1>Api</h1>
             <h2>
-                Bienvenido a nuestra página Principal
+                Bienvenido a nuestra página Api
             </h2>
             </div>
         </div>
     )
 }
 
-export default Home;
+export default Api;

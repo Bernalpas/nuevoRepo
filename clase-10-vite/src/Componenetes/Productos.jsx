@@ -1,17 +1,17 @@
 
 
 
-const Home = () =>{
+const Productos = () =>{
     return(
         <div className='container'>
             <div>
-            <h1>Home</h1>
+            <h1>Productos</h1>
             <h2>
-                Bienvenido a nuestra página Principal
+                Bienvenido a nuestra página Productos
             </h2>
             </div>
         </div>
     )
 }
 
-export default Home;
+export default Productos;

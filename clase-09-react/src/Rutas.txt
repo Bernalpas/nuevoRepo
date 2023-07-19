@@ -8,7 +8,7 @@ Rutas en React con React Router Dom
         versiones anteriores
         npm i react-router-dom@5.0.0
 
-2. Importamos el BrowserRouter en el index.js de la app
+2. Importamos el BrowserRouter en el index.js / main.jsx (vite) de la app
     import { BrowserRouter } from 'react-router-dom'
 
 3. Pedimos al BrowserRouter que administre las Rutas
@@ -19,7 +19,7 @@ Rutas en React con React Router Dom
             </BrowserRouter>
             );
 
-4. importamos la configuración de las rutas en App.js
+4. importamos la configuración de las rutas en App.js / App.jsx (vite)
         import { Routes, Route } from 'react-router-dom'
 
 5. Configuramos las rutas

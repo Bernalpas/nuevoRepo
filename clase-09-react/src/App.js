@@ -9,6 +9,8 @@ import Main from './Componentes/Main';
 import Principal from './Componentes/Principal';
 import Home from './Componentes/Home';
 import Error from './Componentes/Error';
+import Productos from './Componentes/Productos';
+import Api from './Componentes/Api';
 
 
 
@@ -26,6 +28,8 @@ function App() {
         <Route path='/home' element={ <Home /> }></Route>
         <Route path='/principal' element={ <Principal /> }></Route>
         <Route path='/main' element={ <Main /> }></Route>
+        <Route path='/productos' element={ <Productos /> }></Route>
+        <Route path='/api' element={ <Api /> }></Route>
         <Route path='*' element={ <Error /> }></Route>
       </Routes>
 

@@ -9,6 +9,7 @@ import Api from './Componenetes/Api'
 import Productos from './Componenetes/Productos'
 import Error from './Componenetes/Error'
 import Navegador from './Componenetes/Navegador'
+import Main from './Componenetes/Main'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       <Route path='/principal' element={<Principal />}></Route>
       <Route path='/api' element={<Api />}></Route>
       <Route path='/productos' element={<Productos />}></Route>
+      <Route path='/main' element={<Main />}></Route>
       <Route path='*' element={<Error />}></Route>
     </Routes>
     <Footer />

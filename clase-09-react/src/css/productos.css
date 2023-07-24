@@ -2,3 +2,8 @@
 div {
     background: rgb(218, 250, 218);
 }
+
+.miEstilo{
+    display: flex;
+    flex-direction: row;
+}

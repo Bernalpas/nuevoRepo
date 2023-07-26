@@ -25,6 +25,9 @@ const Navegador = () => {
                     <Link to='/productos'> Productos </Link>
                 </li>
                 <li>
+                    <Link to='/apidos'> Api DOS </Link>
+                </li>
+                <li>
                     <a h href="https://utn.edu.ar/es/" 
                     target='_blank'
                     rel="noopener noreferrer"> UTN </a>

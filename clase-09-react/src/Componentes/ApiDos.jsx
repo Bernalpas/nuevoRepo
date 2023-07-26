@@ -5,23 +5,17 @@ import { Row, Col } from 'react-bootstrap'
 
 
 
-const Api = () =>{
+const ApiDos = () =>{
 
-    //si necesito que sea privada
-    /* const URL = 'https://rickandmortyapi.com/api/character'; */
-
-    //creo lo que se llama variables de entorno
-    const URLDOS = process.env.REACT_APP_URL;
-
-    console.log(process.env.REACT_APP_URL);
+    const misDatos = process.env.REACT_APP_URL
 
     const [personajes, setPersonajes] = useState([]);
 
     useEffect(()=>{
-        /* 1. fetch('https://rickandmortyapi.com/api/character') */
+        fetch(misDatos)
         /* 2. fetch(URL) */
         /* 3.  */
-        fetch(URLDOS)
+        /* fetch(URLDOS) */
         .then(respuesta => respuesta.json())
         .then(respuesta => setPersonajes(respuesta.results))
         /* .then(respuesta => console.log(personaje)) */
@@ -52,7 +46,7 @@ const Api = () =>{
             </h2>
 
                 <Row>
-                    {personajes.map((personaje) => (
+                {personajes.map((personaje) => (
                         <Col key={personaje.id}>
                             <div class="card">
                                 <img src={personaje.image} class="card-img-top" alt="personaje" />
@@ -71,4 +65,4 @@ const Api = () =>{
     )
 }
 
-export default Api;
+export default ApiDos;

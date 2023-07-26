@@ -11,6 +11,7 @@ import Home from './Componentes/Home';
 import Error from './Componentes/Error';
 import Productos from './Componentes/Productos';
 import Api from './Componentes/Api';
+import ApiDos from './Componentes/ApiDos';
 
 
 
@@ -30,6 +31,7 @@ function App() {
         <Route path='/main' element={ <Main /> }></Route>
         <Route path='/productos' element={ <Productos /> }></Route>
         <Route path='/api' element={ <Api /> }></Route>
+        <Route path='/apidos' element={ <ApiDos /> }></Route>
         <Route path='*' element={ <Error /> }></Route>
       </Routes>
 
